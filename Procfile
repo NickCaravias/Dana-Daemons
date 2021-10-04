@@ -1,4 +1,4 @@
-release: python manage.py migrate
+release: python twitterdisplay/manage.py migrate
 web: gunicorn twitterdisplay.wsgi:application --log-file - --log-level debug
-python manage.py collectstatic --noinput
-manage.py migrate
+python twitterdisplay/manage.py collectstatic --noinput
+twitterdisplay/manage.py migrate
