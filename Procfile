@@ -1,2 +1,2 @@
-web:gunicorn manage.wsgi --log-file -
+web:gunicorn Dana-Daemons.wsgi --log-file -
 
