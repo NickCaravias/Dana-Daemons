@@ -1,2 +1,2 @@
-web gunicorn twitterdisplay.wsgi --log-file -
+web gunicorn TwitterDisplay.wsgi --log-file -
 
