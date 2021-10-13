@@ -1,2 +1,2 @@
-web:gunicorn Dana-Daemons.wsgi --log-file -
+web:gunicorn TwitterDisplay.wsgi --log-file -
 
