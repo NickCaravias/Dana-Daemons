@@ -1,2 +1,2 @@
-web gunicorn manage.wsgi --log-file -
+web:gunicorn manage.wsgi --log-file -
 
